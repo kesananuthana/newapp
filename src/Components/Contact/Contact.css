@@ -1,0 +1,55 @@
+.contactus{
+    margin-left:50px;
+    float:left;
+   /* margin-top: 150px;*/
+}
+.info{
+    text-align:left;
+    margin-left:90px;
+}
+.info h2{
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    font-family: Libre Baskerville;
+    line-height:0.5 ;
+}
+.info p{
+    font-size: 21px;
+    font-family: 'poppins',sans-serif;
+    width:700px;
+    color: darkblue;
+    margin-left:15px;
+    line-height: 1.5;
+}
+.info h3{
+    font-size: 21px;
+    font-family: 'poppins',sans-serif;
+    margin-left:15px;
+    line-height: 0.5;
+    color: darkblue;
+}
+.contact-img{
+    margin-top: 150px;
+}
+.contact-form{
+    text-align:right;
+    margin-right:400px;
+}
+.contact-form h1{
+    text-transform: uppercase;
+    color: darkblue;
+    font-family: Libre Baskerville ;
+}
+.contact-form form{
+    text-align:right;
+    margin-left: 1000px;
+}
+.contact-form input, .contact-form textarea {
+    width: 150%;
+    height:auto;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    margin-right:50px;
+}

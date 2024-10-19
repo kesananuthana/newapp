@@ -1,0 +1,28 @@
+.our{
+    margin-top:20px;
+    padding: 80px;
+    line-height: 0.5;
+    float:left;
+  }
+.services-page h1{
+    padding: 20px;
+    text-align: left;
+    color: darkblue;
+    line-height: 0.5;
+    text-transform: uppercase;
+    font-family: Libre Baskerville;
+}
+.services-container h2{
+    color:black;
+    padding-left: 45px;
+    text-align: left;
+}
+.services-container p{
+    color:darkblue;
+    padding-left: 10px;
+    font-size: 21px;
+    font-weight:300;
+    width:1000px;
+    height:auto;
+    font-family: 'poppins',sans-serif;
+}

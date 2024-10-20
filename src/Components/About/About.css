@@ -1,6 +1,14 @@
+.Flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}  
 .about{
     margin-left:150px;
     margin-top: 160px;
+    width: 50%;
+    padding: 20px;
 }
 .about-us{
     float:left;
@@ -10,6 +18,8 @@
 .us{
     margin-top:150px;
     float:right;
+    width: 50%;
+    padding: 20px;
 }
 .us h1{
     text-transform: uppercase;
@@ -20,7 +30,6 @@
     text-align:right;
     color: darkblue;
     line-height: 0.5;
-    margin-left: 120px;
     font-family: 'poppins',sans-serif;
     font-size: 21px;
     font-weight: 40;

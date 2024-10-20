@@ -6,32 +6,6 @@ import './Welcome.css';
 function Welcome(){
     return(
         <div>
-            {/*<nav className="navbar">
-                <div className="logo">Lytis</div>
-                    <ul>
-                        <li><a href="welcome.js">Home</a></li>
-                        <li><a href="About.js">About</a></li>
-                        <li><a href="Services.js">Services</a></li>
-                        <li><a href="Contact.js">Contact Us</a></li>
-                    </ul>
-            </nav>*/}
-            {/*<nav className="navbar">
-                <div className="logo">Lytis</div>
-                    <ul>
-                        <li>
-                        <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                        <Link to="/About">About</Link>
-                        </li>
-                        <li>
-                        <Link to="/Services">Services</Link>
-                        </li>
-                        <li>
-                        <Link to="/Contact">Contact</Link>
-                        </li>
-                </ul>
-            </nav>*/}
             <Flex>
                 <div className="head">
                     <b align="left"><h1 className="abc">Welcome to Lytis Softwares </h1></b>

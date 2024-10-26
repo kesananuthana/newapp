@@ -1,20 +1,21 @@
 import React from 'react';
-import {Flex,Button} from 'antd'; 
-//import { Link } from 'react-router-dom';
+import {Button} from 'antd'; 
 import emp from './emp.jpeg';
 import './Welcome.css';
 function Welcome(){
     return(
         <div>
-            <Flex>
-                <div className="head">
-                    <b align="left"><h1 className="abc">Welcome to Lytis Softwares </h1></b>
-                    <h1 className="c" align="left">Your Trusted Partner in IT Solutions</h1>
-                    <p align="left">At Lytis Softwares, we are dedicated to transforming your ideas into innovative digital solutions.Based in India, we specialize in a comprehensive range of services tailored to meet the unique needs of your business.</p>
-                    <Button type='primary' size='large' variant='solid'>ReadMore</Button>
-                    <div className="ab"><img src={emp} align="right" width="600" height="500" alt="emp"></img></div>
+            <div className="container">
+                <div className="left">
+                    <h1 className="abc">Welcome to Lytis Softwares</h1>
+                    <h2 className="c">Your Trusted Partner in IT Solutions</h2>
+                    <p className="description">At Lytis Softwares, we are dedicated to transforming your ideas into innovative digital solutions. Based in India, we specialize in a comprehensive range of services tailored to meet the unique needs of your business.</p>
+                    <Button type='primary' size='large' variant='solid'>Read More</Button>
                 </div>
-            </Flex>
+                <div className="right">
+                    <img src={emp} alt="emp" />
+                </div>
+                </div>
       </div>
     )
 }

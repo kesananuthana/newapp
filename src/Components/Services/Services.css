@@ -1,28 +1,59 @@
 .our{
-    margin-top:20px;
+    /*margin-top:20px;*/
     padding: 80px;
-    line-height: 0.5;
-    float:left;
+    box-sizing: border-box;
   }
-.services-page h1{
-    padding: 20px;
-    text-align: left;
-    color: darkblue;
-    line-height: 0.5;
+.services{
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+.services h1{
+    text-align:center;
+    color:darkblue;
     text-transform: uppercase;
     font-family: Libre Baskerville;
+    line-height: 2;
 }
-.services-container h2{
-    color:black;
-    padding-left: 45px;
-    text-align: left;
+.services-page{
+    max-width: 1200px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
 }
-.services-container p{
+.service-card{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 30px;
+    background-color:white;
+    text-align: center;
+    padding: 30px 20px;
+}
+.service-card:hover {
+    transform: translateY(-3px);
+    transition: all 0.5s ease-in-out;
+    /*background-color:#FFA2B6;*/
+    /*background-color:peachpuff;*/
+    background-color:pink;
+  }  
+.service-card h2{
     color:darkblue;
-    padding-left: 10px;
-    font-size: 21px;
-    font-weight:300;
-    width:1000px;
-    height:auto;
-    font-family: 'poppins',sans-serif;
+    font-size: 25px;
+    padding: 10px 0;
+    text-transform: capitalize;
 }
+.service-card p{
+    color:#444;
+    font-size: 15px;
+    line-height:1.8;
+    margin-left: 20px;
+    width:300px;
+    text-align: justify;
+}
+Button{
+    margin-left:60px;
+}
+Button :hover{
+    transform: scale(1.02);
+}
+
+  
+  

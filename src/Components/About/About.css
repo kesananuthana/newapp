@@ -35,25 +35,25 @@
     align-items: center;
     padding: 50px;
   }
-  .left {
+  .left-us {
     flex-basis: 50%;
     padding: 20px;
   }
-  .left img {
+  .left-us img {
     width: 70%;
     height: auto;
     border-radius: 10px;
   }
-  .right {
+  .right-about {
     flex-basis: 50%;
     padding: 20px;
   }
-  .right h1 {
+  .right-about h1 {
     text-transform: uppercase;
     color:darkblue;
     font-family: Libre Baskerville;
   }
-  .right p {
+  .right-about p {
     font-size: 20px;
     color: darkblue;
     margin-bottom: 20px;

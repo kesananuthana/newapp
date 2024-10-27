@@ -14,20 +14,21 @@
 .abc {
   color:darkblue;
   text-transform: uppercase;
+  font-weight: bold;
   margin-left: 30px;
-  font-size: 45px;
+  font-size: 40px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   line-height: 0.8;
-  font-style: italic;
+  font-family:italic;
 }
 .c {
-  font-size: 35px;
+  font-size: 30px;
   margin-left: 10px;
   line-height: 0.8;
-  font-family: Libre Baskerville;
+  font-family:cursive;
+  font-weight: light;
 }
 .description {
-  /*line-height: 0.8;*/
   text-align:justify;
   color: darkblue;
   line-height: 1.5;
@@ -52,7 +53,7 @@ Button{
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
@@ -60,4 +61,4 @@ Button{
   .left, .right {
     flex-basis: 100%;
   }
-}
+}*/

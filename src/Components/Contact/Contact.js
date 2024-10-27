@@ -48,7 +48,7 @@ import './Contact.css';
                             </tr>
                             <tr>
                                 <td>
-                                    <textarea placeholder='Your Message'/>
+                                    <textarea placeholder='Your Message' required/>
                                 </td>
                             </tr>
                             <tr>

@@ -15,7 +15,7 @@ export default function About(){
                     Lytis Software Private Limited is an Indian-based software development and IT services company, incorporated on November 10, 2022, with its headquarters in Rajasthan, India. As a privately held company, Lytis specializes in custom software development, web development, mobile app development, and IT consulting, catering to diverse client needs.
                     </p>
                     <div className="learn">
-                    <Button type='primary' size='large'>Learn More</Button>
+                        <Button type='primary' size='large'>Learn More</Button>
                     </div>
                 </div>
             </Flex>

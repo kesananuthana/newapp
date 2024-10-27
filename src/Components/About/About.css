@@ -1,35 +1,4 @@
-/*.about{
-    margin-left:150px;
-    margin-top: 160px;
-}
-.about-us{
-    float:left;
-    line-height: 0.5;
-    border-radius: 50%;
-}
-.us{
-    margin-top:150px;
-    float:right;
-}
-.us h1{
-    text-transform: uppercase;
-    color:darkblue;
-    font-family: Libre Baskerville;
-}
-.aboutus {
-    text-align:right;
-    color: darkblue;
-    font-size: 20px;
-    line-height: 1.5;
-    margin-right: 100px;
-    font-family: 'poppins',sans-serif;
-    width: 900px; 
-    height: auto;
-  }
-  .learn{
-    margin-right:150px;
-  }*/
-  .container {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,9 +18,14 @@
     padding: 20px;
   }
   .right-about h1 {
-    text-transform: uppercase;
     color:darkblue;
-    font-family: Libre Baskerville;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 0.8;
+    font-family:italic;
   }
   .right-about p {
     font-size: 20px;

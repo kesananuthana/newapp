@@ -1,7 +1,7 @@
 import React from 'react';
 //import { Route, Switch } from 'react-router-dom';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
-import Welcome from './Components/Welcome/Welcome.js';
+import Home from './Components/Home/Home.js';
 import About from './Components/About/About.js';
 import Services from './Components/Services/Services.js';
 import Contact from './Components/Contact/Contact.js';
@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
       <Nav/>
         <Routes>
-          <Route exact path="/" element={<Welcome />} />
+          <Route exact path="/" element={<Home/>} />
           <Route path="/About" element={<About />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Contact" element={<Contact />}/>

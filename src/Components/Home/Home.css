@@ -52,13 +52,3 @@ Button{
   height: auto;
   border-radius: 10px;
 }
-
-/*@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  
-  .left, .right {
-    flex-basis: 100%;
-  }
-}*/

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Button} from 'antd'; 
 import emp from './emp.jpeg';
-import './Welcome.css';
-function Welcome(){
+import './Home.css';
+function Home(){
     return(
         <div>
             <div className="container">
@@ -19,4 +19,4 @@ function Welcome(){
       </div>
     )
 }
-export default Welcome
+export default Home

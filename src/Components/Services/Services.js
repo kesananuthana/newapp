@@ -22,17 +22,18 @@ export default function Services(){
                         <p>Enhance your business agility with our cloud solutions.We design and implement secure, flexible, and efficient cloud infrastructures that optimize performance and reduce costs.</p>
                         <Button type="primary" size='large'>ReadMore</Button>
                     </div>
+                    <div className="cards">
                     <div className="service-card">
-                        <h2>CI/CD Implementation</h2>
-                        <p>Streamline your software development process with our Continuous Integration and Continuous Deployment (CI/CD) services. We help automate your workflows, ensuring rapid delivery of high-quality software with reduced risk and improved collaboration.</p>
-                        <Button type="primary" size='large'>ReadMore</Button>
+                            <h2>CI/CD Implementation</h2>
+                            <p>Streamline your software development process with our Continuous Integration and Continuous Deployment (CI/CD) services. We help automate your workflows, ensuring rapid delivery of high-quality software with reduced risk and improved collaboration.</p>
+                            <Button type="primary" size='large'>ReadMore</Button>
                     </div>
-                    <div className="service-card">
-                        <h2>Comprehensive IT Services</h2>
-                        <p> From system integration to cybersecurity, our range of IT services ensures your technology landscape is not only functional but also future-proof.</p>
-                        <Button type="primary" size='large'>ReadMore</Button>
-                    </div>
-                </div>
+                        <div className="service-card">
+                            <h2>Comprehensive IT Services</h2>
+                            <p> From system integration to cybersecurity, our range of IT services ensures your technology landscape is not only functional but also future-proof.</p>
+                            <Button type="primary" size='large'>ReadMore</Button>
+                        </div>
+                    </div></div>
             </div>
         </div>
     )

@@ -1,12 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import {firestore} from './firebase';
 import './Contact.css';
  export default function Contact(){
+    const [name,setName]=useState("");
+    const [email,setEmail]=useState("");
+    const [message,setMessage]=useState("");
+    const handleSubmit= (e) => {
+        e.preventDefault();
+        console.log(name,email,message);
+        firestore.collection("Information").add({
+            name,
+            email,
+            message
+        })
+        .then(()=>{
+            alert("Message send succesfully");
+        })
+        .catch((error)=>console.error("Error submitting data",error));
+    };
     return (
         <div>
             <div className="contactus">
@@ -34,21 +51,21 @@ import './Contact.css';
             <div className="right-form">
                 <div className="contact-form">
                     <h1 style={{color:'White'}}>Contact Us</h1>
-                    <form>
+                    <form method="post" onSubmit={handleSubmit}>
                         <table>
                             <tr>
                                 <td>
-                                    <input type="text" placeholder="Name" required />
+                                    <input type="text" placeholder="Name" required value={name} onChange={(e)=>setName(e.target.value)}/>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input type="email" placeholder="Email" required />
+                                    <input type="email" placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)} required />
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <textarea placeholder='Your Message' required/>
+                                    <textarea placeholder='Your Message' value={message} onChange={(e)=>setMessage(e.target.value)} required/>
                                 </td>
                             </tr>
                             <tr>

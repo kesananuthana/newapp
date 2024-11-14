@@ -19,7 +19,7 @@ export default function Services(){
                     </div>
                     <div className="service-card">
                         <h2>Cloud Infrastructure Development</h2>
-                        <p>Enhance your business agility with our cloud solutions.We design and implement secure and efficient cloud infrastructures that optimize performance and reduce costs.</p>
+                        <p>Enhance your business agility with our cloud solutions.We design and implement secure, flexible cloud infrastructures that optimize performance and reduce costs.</p>
                         <Button type="primary" size='large'>ReadMore</Button>
                     </div>
                     <div className="cards">

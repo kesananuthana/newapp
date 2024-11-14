@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import { BrowserRouter,Routes, Route,Navigate  } from 'react-router-dom';
 import Home from './Components/Home/Home.js';
 import About from './Components/About/About.js';
 import Services from './Components/Services/Services.js';
@@ -16,6 +16,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Contact" element={<Contact />}/>
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
     </div>

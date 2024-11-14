@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
+    justify-content: center;
 }
 .service-card{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
@@ -47,14 +48,16 @@
     font-family: 'poppins',sans-serif;
     line-height:1.8;
     margin-left: 10px;
-    width:300px;
     text-align: justify;
 } 
 .cards {
     grid-column: 1 / 4;
-    display: flex;
-    gap: 40px;
+    max-width: 800px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
     justify-content: center;
+    padding-left: 200px;
   }
 Button{
     margin-left:60px;
